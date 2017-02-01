@@ -1,0 +1,16 @@
+
+
+.box {
+  border: 1px solid black;
+  border-left: hidden;
+  border-right: hidden;
+  height: 150px;
+}
+
+.row {
+	margin-top: 50px;
+}
+img {
+
+max-height:100%;
+}
