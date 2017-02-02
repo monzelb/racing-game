@@ -4,21 +4,21 @@ This is a racing game built for the purpose of practicing key programming skills
 
 ##Technologies Used
 
--Html
--CSS
--Javascript
--Jquery
--Bootstrap
+1. Html
+2. CSS
+3. Javascript
+4. Jquery
+5. Bootstrap
 
 ##Existing Features
 
--Elements that are hidden and shown with event listeners/event handlers
--Cool cars that race across the screen by changing their CSS classes using Jquery.
+1. Elements that are hidden and shown with event listeners/event handlers
+2. Cool cars that race across the screen by changing their CSS classes using Jquery.
 
 
 ##Planned Features
 
--Smoother-operating cars
--A victory video
--music
+1. Smoother-operating cars
+2. A victory video
+3. music
 
