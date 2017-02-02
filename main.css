@@ -1,9 +1,7 @@
 
 
 .box {
-  border: 1px solid black;
-  border-left: hidden;
-  border-right: hidden;
+  
   height: 150px;
 
 }
@@ -23,5 +21,43 @@ padding-left: 0px;
 .car2 {
 	max-height: 120%;
 	overflow: visible;
-	padding-left: 15px;
+	margin-left: 15px;
+}
+
+.position2 {
+	padding-left: 100px;
+}
+
+.position3 {
+  
+  padding-left:200px;
+}
+
+.position4 {
+	padding-left:300px;
+}
+
+.position5 {
+	padding-left: 400px;
+}
+
+.position6 {
+	padding-left:500px;
+}
+
+.position7 {
+	padding-left:600px;
+}
+
+.position8 {
+	padding-left:700px;
+}
+
+.position9 {
+	padding-left: 800px;
+}
+
+h2 {
+	text-align: center;
+	display: hidden;
 }
