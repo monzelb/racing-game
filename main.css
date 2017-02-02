@@ -1,4 +1,6 @@
-
+body {
+	background-image: URL("cartrails.jpg");
+}
 
 .box {
   
@@ -57,7 +59,8 @@ padding-left: 0px;
 	padding-left: 800px;
 }
 
+
+
 h2 {
 	text-align: center;
-	display: hidden;
 }
