@@ -58,8 +58,9 @@ $(document).ready(function(){
 		}
 		if(index1===7 || index2===7){
 			$(".playAgain").show();
-			
-
+			}
+		if(index1===7 && index2===7){
+			$(".bothWin").show();
 		}
 		
 	})
