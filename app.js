@@ -10,7 +10,7 @@ $(document).ready(function(){
 		var currPos1;
 		var currPos2;
 
-		var rick_roll_youtube_embed_code = "<iframe width='420' height='315' src='https://www.youtube.com/embed/dQw4w9WgXcQ' frameborder='0' allowfullscreen></iframe>";
+		
 
 
 	$(window).on("keypress", function findKey(event){
@@ -51,14 +51,14 @@ $(document).ready(function(){
 			}
 		}
 		if(index2===7){
-			$(".2wins").show();
+			$(".twoWins").show();
 		}
 		if(index1===7){
-			$(".1wins").show();
+			$(".oneWins").show();
 		}
 		if(index1===7 || index2===7){
 			$(".playAgain").show();
-			$("body").append(rick_roll_youtube_embed_code);
+			
 
 		}
 		

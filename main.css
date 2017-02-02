@@ -1,5 +1,8 @@
 
-
+body {
+	background-image: url("imgs/field.jpg");
+	background-position: center;
+}
 .box {
   
   height: 150px;
@@ -57,8 +60,16 @@ padding-left: 0px;
 	padding-left: 800px;
 }
 
-
+.playAgain {
+	border: 2px solid red;
+	display: inline;
+	padding: 5px;
+}
 
 h2 {
 	text-align: center;
+}
+
+.twoWins, .oneWins {
+	color: white;
 }
