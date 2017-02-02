@@ -34,10 +34,7 @@ $(document).ready(function(){
 			}
 			
 		}
-		if(index1===7){
-			$(".1wins").show();
-			$("body").append(rick_roll_youtube_embed_code);
-		}
+		
 
 		if(whichKey===108){
 			
@@ -55,9 +52,22 @@ $(document).ready(function(){
 		}
 		if(index2===7){
 			$(".2wins").show();
-			$("body").append(rick_roll_youtube_embed_code);
 		}
+		if(index1===7){
+			$(".1wins").show();
+		}
+		if(index1===7 || index2===7){
+			$(".playAgain").show();
+			$("body").append(rick_roll_youtube_embed_code);
+
+		}
+		
 	})
+
+	$(".playAgain").on("click", function reset(event){
+		window.location.reload(true);
+
+	});
 
 
 
